@@ -1,0 +1,67 @@
+body {
+  margin: 5em 0 0 2em;
+}
+body {
+  margin: 0; /* all sides equal */
+  margin: 0 0 0 0; /* top, right, bottom, left */
+  margin: 0 0 0; /* top, left-right, bottom */
+  margin: 0 0; /* top-bottom, left-right */
+  margin-top: 0;
+}
+main {
+background-color: #FFDAB9;
+  padding: 2em;
+  border: 2px dashed #DC143C; /* dashed border box */
+  border-top: 2em solid #DC143C;
+  margin: 2em;
+}
+html {background-color: #F8F8FF;
+  font: 100%/1.15;
+  /* fantasy, cursive, monospace, sans-serif, serif */
+}
+body {
+  font-family: "Times New Roman", Georgia, serif;
+padding: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 48rem;
+}
+h1
+{
+  font-size: 2.8em;
+  line-height: .8;
+  padding: 0.5rem;
+  text-align: center;
+}
+li {
+  margin-top: .5em;
+}
+section,
+ul,
+ol {padding-top: 1em;}
+
+/* ---- flexible image ---- */
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+p {
+  line-height: 1.35;
+  margin-top: 1em;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*---breakpoint for wider screens---*/
+@media (min-width: 48em)
+
+body {
+  font-size: 125%;
+}
